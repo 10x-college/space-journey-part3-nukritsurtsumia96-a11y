@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dwarf Galaxy Restaurant</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+        </div>
+        <div class="comet comet-blue"></div>
+        <div class="comet comet-red"></div>
+        <div class="hero-content">
+            <h1 class="glow-text">MILKY WAY</h1>
+            <p class="subtitle">Dining at the Edge of the Galaxy</p>
+            <a href="#menu" class="cta-button">Engage Warp Drive</a>
+        </div>
+    </header>
+
+    <section id="menu">
+        <h2>Interplanetary Menu</h2>
+        <div class="menu-grid">
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="../assets/nebula_nudles.jpeg" alt="Nebula Noodles" />
+                    <div class="ingredients-overlay">
+                        <h4>Scanner Analysis</h4>
+                        <ul>
+                            <li>Plasma Rice Noodles</li>
+                            <li>Bioluminescent Algae</li>
+                            <li>Void Broth</li>
+                            <li>Star Anise</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Nebula Noodle Soup</h3>
+                    <p class="card-desc">Glowing purple broth with stardust spices.</p>
+                    <div class="card-footer">
+                        <span class="origin">ORION</span>
+                        <span class="price">15 Cr</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="../assets/QuantumBurger.jpeg" alt="Quantum Burger" />
+                    <div class="ingredients-overlay">
+                        <h4>Scanner Analysis</h4>
+                        <ul>
+                            <li>Anti-Matter Patty</li>
+                            <li>Gamma-Irradiated Lettuce</li>
+                            <li>Levitation Yeast Bun</li>
+                            <li>Neon Cheese</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Quantum Burger</h3>
+                    <p class="card-desc">The patties levitate. Eat quickly before it phases away.</p>
+                    <div class="card-footer">
+                        <span class="origin">EARTH-616</span>
+                        <span class="price">22 Cr</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="../assets/SolarFlareWings.jpeg" alt="Solar Flare Wings" />
+                    <div class="ingredients-overlay">
+                        <h4>Scanner Analysis</h4>
+                        <ul>
+                            <li>Phoenix Poultry</li>
+                            <li>Magma Hot Sauce</li>
+                            <li>Thermal Spices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Solar Flare Wings</h3>
+                    <p class="card-desc">Wings that emit actual heat and light.</p>
+                    <div class="card-footer">
+                        <span class="origin">THE SUN</span>
+                        <span class="price">18 Cr</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="../assets/VoidSteak.jpeg" alt="Void Steak" />
+                    <div class="ingredients-overlay">
+                        <h4>Scanner Analysis</h4>
+                        <ul>
+                            <li>Bovine from the Void</li>
+                            <li>Dark Matter Rub</li>
+                            <li>Electric Blue Jus</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Void Steak</h3>
+                    <p class="card-desc">Tastes like infinity. Pitch black crust.</p>
+                    <div class="card-footer">
+                        <span class="origin">DEEP SPACE</span>
+                        <span class="price">45 Cr</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image-wrapper">
+                    <img src="../assets/RadioactiveRamen.jpeg" alt="Radioactive Ramen" />
+                    <div class="ingredients-overlay">
+                        <h4>Scanner Analysis</h4>
+                        <ul>
+                            <li>Uranium Broth</li>
+                            <li>Glowing Noodles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Radioactive Ramen</h3>
+                    <p class="card-desc">Neon green noodles. Geiger counter not included.</p>
+                    <div class="card-footer">
+                        <span class="origin">CHERNOBYL-2</span>
+                        <span class="price">18 Cr</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 3025 Milky Way Restaurant. Nowhere, Coordinates X-99.</p>
+    </footer>
+
+</body>
+</html>
